@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+header {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+}
+main {
+    margin: 2rem;
+}
+h1 {
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+h2 {
+    color:lightblue;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+
+section {
+    color: #f8f9fa;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+.FICTIONARY,.VISTAAR, [class = "WHAT IF?"], .REVERBERATE, [class ="TAKE DEBAIT"]{
+    background-color: rgb(37, 47, 66);
+    padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+}
+.cursor-follower {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    background: rgba(12, 112, 200, 0.936);
+    border-radius: 50%;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: transform 0.02s linear;
+    z-index: 9999;
+}
+.instagramlogo{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin: 0.5rem;
+    mix-blend-mode: multiply;
+}
+.reverberate, .vistaar, .takedebait, .fictionary, .whatif{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.debsoclogo{
+    max-width: 100%;
+    align-items: center;
+}
+footer{
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+}

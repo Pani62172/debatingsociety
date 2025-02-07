@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE DEBATING SOCIETY</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script defer src="./script.js"></script>
+</head>
+<body style="background: url('./background.png') no-repeat center center fixed; background-size: cover; color: #fff;">
+    <div class="cursor-follower"></div>
+    <header>
+        <img src="./debsoclogo.png" alt="Debating Society Logo" class="debsoclogo">
+        <h1>The Debating Society</h1>
+        <p>We, the official Debating Club of NIT Durgapur, believe every voice matters and are dedicated to creating an accessible space for debaters, public speakers, and the like to be able to participate in constructive discussion and build new ideologies.</p>
+    </header>
+    <main>
+        <h1>Our Fests</h1>
+        <section class="VISTAAR">
+            <h2>VISTAAR</h2>
+            <img src="./vistaar.png" alt="Vistaar banner" class="vistaar">
+            <p>As we introduce Vistaar - Where Words Matter, we celebrate the power of expression in a world that never stops debating. From fierce clashes of ideas to the quiet conviction of well-placed arguments, Vistaar is where voices find their strength and perspectives take shape. This year, its insignia embodies the evolving nature of a debater, embracing the diversity of thought and argumentation.</p>  
+        </section>
+        <h1>Our Events</h1>
+        <section class="FICTIONARY">
+            <h2>FICTIONARY</h2>
+            <img src="./fictionary.png" alt="Fictionary" class="fictionary">
+            <p>Brace yourself for an electrifying trivia showdown that will put your knowledge of books, films, and pop culture to the ultimate test! FICTIONARY is your chance to shine as you tackle questions ranging from classic literature to blockbuster hits. Whether you're an avid reader, a movie enthusiast, or a pop culture expert, this event has something for everyone. It's the perfect blend of challenge and fun, designed to keep you on your toes!</p>
+                     
+        </section>
+        <section class="WHAT IF?">
+            <h2>WHAT IF?</h2>
+            <img src="./whatif.png" alt="What If" class="whatif">
+            <p>In an era of groundbreaking advancements in science and technology, the boundaries of the impossible are constantly being redrawn. What once resided solely in fiction is now inching closer to reality. With this spirit of innovation and wonder, we bring you "What if". "What if" is not merely a public speaking event- it's an imaginative expedition. Step into a world shaped by your boundless creativity. Bring your boldest ideas and craft a narrative that transcends reality. Share your vision and compete with others for a chance to win cash prizes and rewards worth ₹2k!</p>
+            
+        </section>
+        <section class="REVERBERATE">
+            <h2>REVERBERATE</h2>
+            <img src="./reverberate.png" alt="Reverberate Banner" class="reverberate">
+            <p>Calling all dreamers, creators and silent visionaries! We're here to unearth a hidden gem you've always carried-your voice. It's not lost, just tucked away under layers of "maybes" and hesitant pauses. Fear not, for we'll uncover it, refine it, and unleash its potential until it resonates like the perfect harmony of a symphony.</p>
+        </section>
+        <section class="TAKE DEBAIT">
+            <h2>TAKE DEBAIT</h2>
+            <img src="./Takedebait.png" alt="Take Debait" class="takedebait">
+            <p>Ever thought about using your wit and deductive skills to win some impressive rewards? Picture yourself solving tricky challenges, outsmarting opponents, and walking away with not just bragging rights, but a hefty prize too! Sounds exciting, right?</p>
+        
+        </section>
+    </main>
+    <script>
+        const cursorFollower = document.querySelector('.cursor-follower');
+        document.addEventListener('mousemove', (e) => {
+            cursorFollower.style.transform = `translate(${e.pageX}px, ${e.pageY}px)`;
+        });
+    </script>
+    <footer>
+        <h1>Reach Us</h1>
+        <a href="https://www.instagram.com/debsocnitd?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+            <img src="./instagramlogo.png" alt="Instagram Logo" class="instagramlogo">
+        </a>
+    </footer>
+</body>
+</html>
